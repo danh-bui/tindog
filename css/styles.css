@@ -172,7 +172,7 @@ p {
   margin: 0 0.4rem 0.8rem;
 }
 
-@media (max-width: 1142px) {
+@media only screen and (max-width: 1142px) {
   .title-img {
     transform: rotate(0);
     position: static;
@@ -187,7 +187,7 @@ p {
   }
 }
 
-@media (max-width: 530px) {
+@media only screen and (min-width: 390px) and (max-width: 767px) {
   #title {
     padding: 0;
   }
